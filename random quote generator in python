@@ -1,0 +1,14 @@
+import random
+
+quotes = [
+    "The best way to predict your future is to create it. - Abraham Lincoln",
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
+    "The only thing to fear is fear itself. - Franklin D. Roosevelt",
+    "The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. - Steve Jobs"
+]
+
+def get_random_quote():
+    return random.choice(quotes)
+
+print(get_random_quote())
